@@ -9,8 +9,8 @@ class BallThread(threading.Thread):
         self.ball_id = ball_id
         self.x = x
         self.y = y
-        self.dx = dx  # скорость по X
-        self.dy = dy  # скорость по Y
+        self.dx = dx
+        self.dy = dy
         self.running = True
         self.size = 20
 
